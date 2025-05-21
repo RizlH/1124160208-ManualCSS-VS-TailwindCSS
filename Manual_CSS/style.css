@@ -48,21 +48,35 @@ body {
 }
 
 .blok {
-  display: block;
-  border: 2px solid royalblue;
+    display: block;
+    border: 2px solid royalblue;
 }
 
 .inline {
-  display: inline;
-  border: 2px solid royalblue;
+    display: inline;
+    border: 2px solid royalblue;
 }
 
 .inline-blok {
-  display: inline-block;
-  border: 2px solid royalblue;
+    display: inline-block;
+    border: 2px solid royalblue;
 }
 
 .sembunyi {
-  display: none;
-  border: 2px solid royalblue;
+    display: none;
+    border: 2px solid royalblue;
+}
+
+.kontainer-flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.item-flex {
+    flex: 1 0 200px;
+    border: 2px solid royalblue;
 }

@@ -9,7 +9,7 @@ body {
     margin-left: 0.5rem;   /* ml-2 */
 }
 
-.box-kartu {
+.kartu {
     width: 18rem;           /* w-72 */
     height: 12rem;          /* h-48 */
     padding: 1.25rem;       /* p-5 */
@@ -24,7 +24,7 @@ body {
     margin: 2.5rem 0;       /* my-10 */
 }
 
-.pos-absolute {
+.absolute {
     position: absolute;
     left: 1rem;             /* left-4 */
     top: 2.5rem;            /* top-10 */
@@ -32,17 +32,37 @@ body {
     box-sizing: border-box;
 }
 
-.pos-relative {
+.relative {
     position: relative;
     margin-left: 1rem;      /* ml-4 */
     border: 2px solid royalblue;
     box-sizing: border-box;
 }
 
-.pos-fixed {
+.fixed {
     position: fixed;
     bottom: 1rem;           /* bottom-4 */
     right: 1rem;            /* right-4 */
     border: 2px solid royalblue;
     box-sizing: border-box;
+}
+
+.blok {
+  display: block;
+  border: 2px solid royalblue;
+}
+
+.inline {
+  display: inline;
+  border: 2px solid royalblue;
+}
+
+.inline-blok {
+  display: inline-block;
+  border: 2px solid royalblue;
+}
+
+.sembunyi {
+  display: none;
+  border: 2px solid royalblue;
 }

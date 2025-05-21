@@ -1,8 +1,48 @@
-.kartu {
-    width: 300px;
-    height: 200px;
-    padding: 20px;
+body {
+    min-height: 100vh;
+    position: relative;
+}
+
+.judul {
+    font-size: 1.5rem;     /* text-2xl = 24px */
+    font-weight: bold;     /* font-bold */
+    margin-left: 0.5rem;   /* ml-2 */
+}
+
+.box-kartu {
+    width: 18rem;           /* w-72 */
+    height: 12rem;          /* h-48 */
+    padding: 1.25rem;       /* p-5 */
+    border: 2px solid royalblue; /* border-green-700 */
+    margin: 1rem;           /* m-4 */
+    box-sizing: border-box;
+}
+
+.posisi-container {
+    position: relative;
+    min-height: 200px;      /* min-h-[200px] */
+    margin: 2.5rem 0;       /* my-10 */
+}
+
+.pos-absolute {
+    position: absolute;
+    left: 1rem;             /* left-4 */
+    top: 2.5rem;            /* top-10 */
     border: 2px solid royalblue;
-    margin: 15px;
+    box-sizing: border-box;
+}
+
+.pos-relative {
+    position: relative;
+    margin-left: 1rem;      /* ml-4 */
+    border: 2px solid royalblue;
+    box-sizing: border-box;
+}
+
+.pos-fixed {
+    position: fixed;
+    bottom: 1rem;           /* bottom-4 */
+    right: 1rem;            /* right-4 */
+    border: 2px solid royalblue;
     box-sizing: border-box;
 }

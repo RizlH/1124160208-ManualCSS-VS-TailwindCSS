@@ -1,17 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Tailwind CSS</title>
-    <link rel="stylesheet" href="dist/output.css">
+    <link rel="stylesheet" href="dist/output.css" />
 </head>
-<body>
+<body class="min-h-screen relative">
 
     <!-- 1. Box Model -->
-    <div class="w-72 h-48 p-5 border-2 border-green-700 m-4">
-        Kartu
-    </div>
-    
+    <h1 class="text-2xl font-bold ml-2">1. Box Model</h1>
+    <section>
+        <div class="w-72 h-48 p-5 border-2 border-green-700 m-4">
+            Kartu
+        </div>
+    </section>
+
+    <!-- 2. Ngatur Posisi Elemen -->
+    <h1 class="text-2xl font-bold ml-2">2. Mengatur Posisi Elemen</h1>
+    <section class="relative min-h-[200px] my-10  ">
+        <!-- Posisi absolute (dalam container relative agar terlihat jelas) -->
+        <div class="absolute left-4 top-10 border-2 border-green-700 ">
+            Konten Absolute
+        </div>
+
+        <!-- Posisi relatif -->
+        <div class="relative ml-4 border-2 border-green-700 ">
+            Konten Relative
+        </div>
+
+        <!-- Posisi tetap di bawah kanan -->
+        <div class="fixed bottom-4 right-4 border-2 border-green-700 ">
+            Konten Tetap
+        </div>
+
+    </section>
+
 </body>
 </html>

@@ -80,3 +80,25 @@ body {
     flex: 1 0 200px;
     border: 2px solid royalblue;
 }
+
+.grid-kontainer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto auto;
+    gap: 20px;
+}
+
+.header-grid {
+    grid-column: 1 / -1;
+    border: 2px solid royalblue;
+}
+
+.sidebar {
+    grid-row: 2 / 4;
+    border: 2px solid royalblue;
+}
+
+.konten-utama {
+    grid-column: 2 / 4;
+    border: 2px solid royalblue;
+}

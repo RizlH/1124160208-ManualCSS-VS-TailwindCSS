@@ -102,3 +102,26 @@ body {
     grid-column: 2 / 4;
     border: 2px solid royalblue;
 }
+
+.kartu-responsive {
+    width: 100%;
+    border: 2px solid royalblue;
+    height: 12rem;        
+    padding: 1.25rem;      
+    border: 2px solid royalblue; 
+    margin: 1rem;   
+    box-sizing: border-box;
+}
+
+@media (min-width: 768px) {
+    .kartu-responsive {
+        width: 50%;
+    }
+}
+
+@media (min-width: 1024px) {
+    .kartu-responsive {
+        width: 33.333333%;
+    }
+}
+
